@@ -42,7 +42,7 @@ function desencriptar() {
         parrafo.textContent = "";
         imagenEncriptado.src = "./img/desencriptado.jpg";
       } else {
-        imagenEncriptado.src = "./img/muñeco.png";
+        imagenEncriptado.src = "./img/cerrojo.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal("Ooops!", "Debes ingresar un texto", "warning");
